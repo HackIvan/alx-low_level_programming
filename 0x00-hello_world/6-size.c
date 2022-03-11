@@ -9,7 +9,7 @@
 int main(void)
 {
 	char mycharacter;
-	int myinteger;
+	int myint;
 	long mylong;
 	long long mylonglong;
 	float myfloat;
