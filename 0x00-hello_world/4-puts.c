@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * This Prints exactly as it is.
+ * main - Entry point
  *
- * without andy error
+ * Return: Always 0 (Success)
  */
 
-int main (void)
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
