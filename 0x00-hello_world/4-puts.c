@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * This Prints exactly as it is.
  *
  * without andy error
