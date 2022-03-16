@@ -22,4 +22,3 @@ _putchar('-');
 return (-1);
 }
 }
-© 2022 GitHu
