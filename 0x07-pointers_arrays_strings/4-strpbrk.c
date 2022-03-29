@@ -18,4 +18,16 @@ char *_strpbrk(char *s, char *accept)
 	p = 0;
 
 	for (counter = 0; s[counter] != '\0'; counter++)
+	{
+		for (counter2 = 0; accept[counter2]; counter2++)
+		{
+			if (accept[counter2] == s[counter])
+			{
+				p = &s[counter];
+				return (p);
+			}
+		}
+	}
+	return (p);
+}
 
